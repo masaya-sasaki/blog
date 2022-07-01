@@ -1,0 +1,27 @@
+.container{
+}
+
+.title{
+    margin: 2rem auto; 
+    font-size: 2rem;
+    width: 72%; 
+    max-width: 500px; 
+        background: -webkit-linear-gradient(90deg, rgba(251,63,145,1) 0%, rgba(192,70,252,1) 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+  }
+
+.introduction{
+    margin: 2rem auto; 
+    font-size: 1.5rem;
+    width: 90%; 
+  }
+
+  .landingbox {
+    border-radius: 3rem;
+    width: 80%; 
+    max-width: 500px; 
+    margin: 0 auto; 
+}
+
+

@@ -1,0 +1,11 @@
+.box{
+    list-style-type: none;
+    border: 1px solid white;
+    padding: 0.5rem;
+    cursor: pointer; 
+}
+
+.date{
+    color: grey; 
+    font-size: 0.7rem;
+}

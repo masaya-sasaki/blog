@@ -1,0 +1,25 @@
+.container{
+}
+
+.title{
+    margin: 2rem auto; 
+    font-size: 2rem;
+    width: 72%; 
+    max-width: 500px; 
+    color: #38B6FF;
+  }
+
+.introduction{
+    margin: 2rem auto; 
+    font-size: 1.5rem;
+    width: 90%; 
+  }
+
+  .landingbox {
+    border-radius: 3rem;
+    width: 80%; 
+    max-width: 500px; 
+    margin: 0 auto; 
+}
+
+

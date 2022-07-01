@@ -1,0 +1,10 @@
+.box{
+    list-style-type: none;
+    border: 1px solid white;
+    cursor: pointer; 
+}
+
+.date{
+    color: grey; 
+    font-size: 0.7rem;
+}
