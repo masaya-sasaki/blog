@@ -1,6 +1,6 @@
-import Layout from "./components/layout";
+import Layout from "../components/layout";
 import { getSortedPostsData } from "../lib/posts";
-import PostBox from "./components/postbox";
+import PostBox from "../components/postbox";
 
 export default function Post({allPostsData}){
     return (

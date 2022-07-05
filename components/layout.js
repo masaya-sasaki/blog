@@ -1,6 +1,5 @@
 import Link from 'next/link'
 import Head from 'next/head'
-import Image from 'next/image'
 import styles from './Layout.module.css'
 import Footer from './footer'
 
@@ -21,7 +20,7 @@ export default function Layout({children}){
         <nav className={styles.navigation}>
         <Link href='/'>
         <div className={styles.logos}>
-        <Image
+        <image
         src='/3dlogo.svg'
         alt='logo'
         width='50px'
