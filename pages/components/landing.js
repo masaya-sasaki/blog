@@ -26,9 +26,7 @@ export default function Landing(){
                     3rd ver. of the web!
                 </p>
             </div>
-            <div className={styles.web3box}>
-               
-            </div>
+
         </section>
     )
 }
