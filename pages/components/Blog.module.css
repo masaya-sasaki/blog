@@ -6,9 +6,7 @@
     font-size: 2rem;
     width: 72%; 
     max-width: 500px; 
-    background: -webkit-linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(192,70,252,1) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: #38B6FF;
   }
 
 .introduction{
@@ -24,4 +22,14 @@
     margin: 0 auto; 
 }
 
+.linkcontainer{
+    width: 72%; 
+    display: flex;
+    align-items: center;
+    gap: 0.2rem; 
+    cursor: pointer;
+}
 
+.linkcontainer:hover{
+    color: lightblue;
+}

@@ -1,3 +1,7 @@
+.landing{
+  margin-top: 2rem;
+}
+
 .landingbox {
     border-radius: 3rem;
     width: 80%; 
@@ -7,7 +11,7 @@
 
 .glow{
     margin: 2rem auto; 
-    font-size: 3rem;
+    font-size: 4rem;
     text-align: center;
     color: #fff;
   }

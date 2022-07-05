@@ -18,11 +18,14 @@ export default function Post({allProjectsData}){
                 </ol>
             </p>
             <ul style={{display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1rem', paddingInlineStart: '0px' }} >
-            {allProjectsData.map(({ id, date, title }) => (
+            {allProjectsData.map(({ id, title, image, skills, link, githublink }) => (
               <ProjectBox 
               title={title}
               id={id}
-              date={date}
+              image={image}
+              skills={skills}
+              link={link}
+              githublink={githublink}
               key={id}
               />
               ))}

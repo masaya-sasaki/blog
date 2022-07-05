@@ -3,12 +3,14 @@ import styles from './Footer.module.css'
 
 export default function Footer(){
     return (
-        <div className={styles.footer}>
-        <footer className={styles.footernavigation}>
+        <footer className={styles.footer}>
         Designed and coded by Masaya Sasaki 
-        <AiFillGithub size={40}/>
-        <AiFillLinkedin size={40}/>
+        <a href='https://github.com/masaya-sasaki' target='_blank'>
+            <AiFillGithub size={30}/>
+        </a>
+        <a href='https://www.linkedin.com/in/masaya-sasaki/' target='_blank'>
+            <AiFillLinkedin size={30}/>
+        </a>
         </footer>
-      </div>
     )
 }

@@ -1,10 +1,29 @@
 .box{
     list-style-type: none;
     border: 1px solid white;
-    cursor: pointer; 
 }
 
-.date{
+.projectbox{ 
+    display: flex;
+    justify-content: space-between;
+}
+
+.projectcontent{
+    cursor: pointer;
+}
+
+.projectcontent:hover{
+    color: lightpink; 
+}
+
+.links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.2rem; 
+}
+
+.skills{
     color: grey; 
     font-size: 0.7rem;
 }

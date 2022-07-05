@@ -63,7 +63,7 @@
 }
 
 .button{
-  border: 1px solid #38B6FF;;
+  border: 1px solid #38B6FF;
   border-radius: 20px;  
   padding: 1rem;
   background-color: #121212;
@@ -72,3 +72,10 @@
   cursor: pointer;
 }
 
+.button:hover{
+  border: 1px solid #FFF;
+  background-color: #121212;
+  color: #FFF;
+  font-size: 0.8rem;
+  cursor: pointer;
+}

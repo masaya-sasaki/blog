@@ -30,24 +30,26 @@ export default function Layout({children}){
         </Link>
           <ul className={styles.menu}>
             <li className={styles.menuitem1}>
-              <Link href='/post'>
+              <a href='#about'>
               About
-              </Link>
+              </a>              
             </li>
             <li className={styles.menuitem2}>
-            <Link href='/project'>
+            <a href='#projects'>
               Projects
-              </Link>
+              </a>   
             </li>
             <li className={styles.menuitem1}>
-              <Link href='/post'>
-              Blog
-              </Link>
+            <a href='#posts'>
+              Posts
+              </a>  
             </li>
             <li className={styles.menuitem}>
               <div className={styles.buttonbox}>
                 <button className={styles.button}>
-                    Contact👋
+                  <a href='#contact'>
+                  Contact
+                  </a>
                 </button>
               </div>
             </li>

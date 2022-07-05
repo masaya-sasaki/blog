@@ -1,7 +1,6 @@
 .formcontainer{
-    margin: 1rem auto 10rem; 
-    background-image: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
-    background-origin: content-box;
+    margin: 1rem auto 5rem; 
+    border: 1px solid lightpink; 
     padding: 3px;
     border-radius: 10px;
     width: min(80vw, 450px);
@@ -54,7 +53,7 @@
     padding: 0.5rem;
     border: 0;
     border-radius: 1.25rem;
-    background:rgba(63,94,251,1);
+    background: lightpink; 
     color: white;
 }
 

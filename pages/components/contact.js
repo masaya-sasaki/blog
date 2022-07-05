@@ -28,7 +28,7 @@ export default function Contact(){
             return false 
         }
         else{
-            alert('A name was submitted: ' + `${fName} ${lName} ${email} ${message}`);
+            alert('The following form data was submitted.: ' + `First Name: ${fName}, Last Name: ${lName}, Email: ${email}, Message: ${message}`);
         }
     }
 

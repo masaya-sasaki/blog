@@ -12,7 +12,6 @@ export default function Project({projectData}){
         </Head>
           <article>
             <h2>{projectData.title}</h2>
-            <Date dateString={projectData.date} />
             <br/>
             <div dangerouslySetInnerHTML={{ __html: projectData.contentHtml }} />
             <p>Return to <span style={{color: '#0000FF'}}><Link href='/'>home</Link></span> </p>

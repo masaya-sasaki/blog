@@ -1,6 +1,7 @@
 ---
 title: 'Learn web3'
 date: '2022-06-26'
+summary: 'In this post, I talk about how you can learn about Ethereum and Internet to understand web3 better.'
 ---
 
 Learning web3: **Ethereum** and **Internet** will be used to create this website.

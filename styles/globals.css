@@ -5,6 +5,7 @@ body {
   font-family: 'Inconsolata', 'mono-space';
   background: #121212;  
   color: white; 
+  scroll-behavior: smooth;
 }
 
 a {
@@ -15,8 +16,6 @@ a {
 * {
   box-sizing: border-box;
 }
-
-
 
 
 @media only screen and (min-width: 600px) {

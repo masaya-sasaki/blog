@@ -5,7 +5,21 @@
     cursor: pointer; 
 }
 
+.box:hover{
+    color: lightblue; 
+}
+
+.title{
+    font-size: 1.5rem;
+    padding: 0;
+    margin: 0;
+}
+
 .date{
     color: grey; 
     font-size: 0.7rem;
+}
+
+.summary{
+    color: lightgrey; 
 }

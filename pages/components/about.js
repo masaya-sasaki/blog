@@ -9,7 +9,7 @@ export default function About(){
             <div className={styles.landingbox}>
                 <p className={styles.introduction}>
                    Hi, there. My name is Masaya Sasaki. 
-                   I am a frontend engineer who loves buliding
+                   I am a React Developer/Frontend engineer who loves buliding
                    things for the web. 
                 </p>
                 <p className={styles.introduction}>
