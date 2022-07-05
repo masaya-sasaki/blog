@@ -2,6 +2,7 @@ import Link from 'next/link'
 import Head from 'next/head'
 import styles from './Layout.module.css'
 import Footer from './footer'
+import logo from '../public/3dlogo.svg'
 
 export default function Layout({children}){
     return (
@@ -21,7 +22,7 @@ export default function Layout({children}){
         <Link href='/'>
         <div className={styles.logos}>
         <image
-        src={require('../public/3dlogo.svg?original')}
+        src={logo}
         alt='logo'
         width='50px'
         height='50px'
