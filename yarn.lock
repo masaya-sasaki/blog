@@ -2226,13 +2226,13 @@
   "resolved" "https://registry.npmjs.org/ignore/-/ignore-5.2.0.tgz"
   "version" "5.2.0"
 
-"imagemin-svgo@^10.0.1":
-  "integrity" "sha512-v27/UTGkb3vrm5jvjsMGQ2oxaDfSOTBfJOgmFO2fYepx05bY1IqWCK13aDytVR+l9w9eOlq0NMCLbxJlghYb2g=="
-  "resolved" "https://registry.npmjs.org/imagemin-svgo/-/imagemin-svgo-10.0.1.tgz"
-  "version" "10.0.1"
+"imagemin-svgo@^9.0.0":
+  "integrity" "sha512-uNgXpKHd99C0WODkrJ8OO/3zW3qjgS4pW7hcuII0RcHN3tnKxDjJWcitdVC/TZyfIqSricU8WfrHn26bdSW62g=="
+  "resolved" "https://registry.npmjs.org/imagemin-svgo/-/imagemin-svgo-9.0.0.tgz"
+  "version" "9.0.0"
   dependencies:
-    "is-svg" "^4.3.1"
-    "svgo" "^2.5.0"
+    "is-svg" "^4.2.1"
+    "svgo" "^2.1.0"
 
 "imagemin@^5.0.0 || ^6.0.0 || ^7.0.0", "imagemin@^6.1.0":
   "integrity" "sha512-8ryJBL1CN5uSHpiBMX0rJw79C9F9aJqMnjGnrd/1CafegpNuA81RBAAru/jQQEOWlOJJlpRnlcVFF6wq+Ist0A=="
@@ -2496,7 +2496,7 @@
   dependencies:
     "has-tostringtag" "^1.0.0"
 
-"is-svg@^4.3.1":
+"is-svg@^4.2.1":
   "integrity" "sha512-mM90duy00JGMyjqIVHu9gNTjywdZV+8qNasX8cm/EEYZ53PHDgajvbBwNVvty5dwSAxLUD3p3bdo+7sR/UMrpw=="
   "resolved" "https://registry.npmjs.org/is-svg/-/is-svg-4.3.2.tgz"
   "version" "4.3.2"
@@ -4304,7 +4304,7 @@
   "resolved" "https://registry.npmjs.org/supports-preserve-symlinks-flag/-/supports-preserve-symlinks-flag-1.0.0.tgz"
   "version" "1.0.0"
 
-"svgo@^2.5.0":
+"svgo@^2.1.0":
   "integrity" "sha512-+N/Q9kV1+F+UeWYoSiULYo4xYSDQlTgb+ayMobAXPwMnLvop7oxKMo9OzIrX5x3eS4L4f2UHhc9axXwY8DpChg=="
   "resolved" "https://registry.npmjs.org/svgo/-/svgo-2.8.0.tgz"
   "version" "2.8.0"
