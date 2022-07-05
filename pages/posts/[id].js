@@ -3,6 +3,7 @@ import Link from "next/link"
 import { getPostData } from "../../lib/posts"
 import { getAllPostIds } from '../../lib/posts';
 import Layout from "../components/layout";
+import Date from '../components/date'
 
 export default function Post({postData}){
     return (

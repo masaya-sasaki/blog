@@ -23,6 +23,7 @@ export default function Layout({children}){
         <div className={styles.logos}>
         <Image
         src='/3dlogo.svg'
+        alt='logo'
         width='50px'
         height='50px'
         />

@@ -6,7 +6,7 @@ export default function Landing(){
             <h1 className={styles.glow}>
                 <span
                 className={styles.glow2}
-                >-Masaya's </span>
+                >-Masaya&apos;s </span>
                 <span
                 className={styles.glow2}
                 >Web3 </span>
