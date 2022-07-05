@@ -21,7 +21,7 @@ export default function Layout({children}){
         <Link href='/'>
         <div className={styles.logos}>
         <image
-        src='/3dlogo.svg'
+        src={require('../public/3dlogo.svg')}
         alt='logo'
         width='50px'
         height='50px'
