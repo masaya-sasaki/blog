@@ -1,7 +1,13 @@
 const withOptimizedImages = require('next-optimized-images');
 
-module.exports = withOptimizedImages({
-  reactStrictMode: true,
-  handleImages: ['svg'],
-});
+module.exports = {
+  webpack(config) {
+    config.module.rules.push({
+      test: /\.svg$/,
+      use: ["@svgr/webpack"]
+    });
+
+    return config;
+  }
+};
 
