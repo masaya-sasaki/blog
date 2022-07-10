@@ -1,5 +1,3 @@
-const withOptimizedImages = require('next-optimized-images');
-
 module.exports = {
   webpack(config) {
     config.module.rules.push({
