@@ -13,17 +13,16 @@ export default function ProjectBox({ id, title, image, skills, link, githublink 
                 {title}
                 <br/>
                 {image}
-                {link}
                 <span className={styles.skills}>{skills}</span>              
               </div>
               </Link>
               <div
               className={styles.links}
               >
-              <a href={githublink}>
+              <a href={githublink} target='_blank' rel="noreferrer">
                 <AiFillGithub/>
               </a>
-              <a href={link}>
+              <a href={link} target='_blank' rel="noreferrer">
                 <AiOutlineLink/>  
               </a>
               </div>
