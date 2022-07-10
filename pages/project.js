@@ -1,6 +1,6 @@
-import Layout from "../components/layout";
+import Layout from "./components/layout";
 import { getSortedProjectsData } from "../lib/projects";
-import ProjectBox from "../components/projectbox";
+import ProjectBox from "./components/projectbox";
 
 export default function Post({allProjectsData}){
     return (
