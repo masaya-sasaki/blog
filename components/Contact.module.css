@@ -55,6 +55,12 @@
     border-radius: 1.25rem;
     background: lightpink; 
     color: white;
+    cursor: pointer;
+}
+
+.submit:hover{
+    background-color: palevioletred;
+    color: white;
 }
 
 .blueInput:focus {

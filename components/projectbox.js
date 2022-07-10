@@ -20,10 +20,10 @@ export default function ProjectBox({ id, title, image, skills, link, githublink 
               className={styles.links}
               >
               <a href={githublink} target='_blank' rel="noreferrer">
-                <AiFillGithub/>
+                <AiFillGithub className={styles.changeColor}/>
               </a>
               <a href={link} target='_blank' rel="noreferrer">
-                <AiOutlineLink/>  
+                <AiOutlineLink className={styles.changeColor}/>  
               </a>
               </div>
             </div>

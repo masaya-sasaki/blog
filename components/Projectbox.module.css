@@ -27,3 +27,11 @@
     color: grey; 
     font-size: 0.7rem;
 }
+
+.changeColor{
+    color: white
+}
+
+.changeColor:hover{
+    color: lightpink; 
+}
