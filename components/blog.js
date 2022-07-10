@@ -3,9 +3,7 @@ import styles from './Blog.module.css';
 import { AiOutlineArrowRight } from "react-icons/ai";
 import Link from "next/link";
 
-export default function Blog({allPostsData}){
-    const featuredPostsData = allPostsData.slice(0,2)
-
+export default function Blog({featuredPostsData}){
     return (
             <section id='posts' className={styles.container}>
                 <h2 className={styles.title}>FEATURED POSTS</h2>

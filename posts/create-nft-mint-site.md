@@ -2,6 +2,7 @@
 title: 'Creating a nft minting site using React'
 date: '2022-06-23'
 summary: 'In this post, I talk about how you can create a nft minting website using React and Hardhat.'
+featured: 'yes'
 ---
 
 Creating a nft minting site: **React** and **Hardhat** will be used to create this website.

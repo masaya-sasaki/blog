@@ -3,17 +3,17 @@ import Landing from '../components/landing'
 import Layout from '../components/layout'
 import Projects from '../components/projects'
 import { getFeaturedProjectsData } from '../lib/projects';
-import { getSortedPostsData } from "../lib/posts";
+import { getFeaturedPostsData } from '../lib/posts';
 import Blog from '../components/blog';
 import Contact from '../components/contact';
 
-export default function Home({featuredProjectsData, allPostsData}) {
+export default function Home({featuredProjectsData, featuredPostsData}) {
   return (
     <Layout>
         <Landing/>
         <About/>
         <Projects featuredProjectsData={featuredProjectsData}/>
-        <Blog allPostsData={allPostsData}/>
+        <Blog featuredPostsData={featuredPostsData}/>
         <Contact/>
     </Layout>
   )
@@ -21,12 +21,12 @@ export default function Home({featuredProjectsData, allPostsData}) {
 
 export async function getStaticProps(){
   const featuredProjectsData = getFeaturedProjectsData(); 
-  const allPostsData = getSortedPostsData(); 
+  const featuredPostsData = getFeaturedPostsData(); 
 
   return {
     props: { 
       featuredProjectsData, 
-      allPostsData, 
+      featuredPostsData, 
     }, 
   }
 }
