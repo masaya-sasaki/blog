@@ -1,64 +1,42 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Web3 Dev Blog - blog/portfolio app
 
-## Getting Started
+**Web3 Dev Blog** is a simple blog/portfolio app created using Next.js.
 
-First, run the development server:
+# Table of Contents
 
-```bash
-npm run dev
-# or
-yarn dev
+ 1. Introduction
+ 2. Technologies
+ 3. Setup
+ 4. Future Features 
+
+## Introduction
+
+**Web3 Dev Blog** is a simple blog/portfolio app created using Next.js, React.js, CSS modules, React Icons, Remark, and Grey Matter. I wanted to showcase my skills in Next.js + SSG (Static Site Generation) and also make something meaningful using React, so I decided to work on this web3 dev blog/portfolio app. I extended part of Next.js's tutorial and developed the blog feature. It was my first time designing everything from scratch and writing custom React components so it was very challenging but rewarding as well. I also had the opportunity to design the logo using Canva which is used as a favicon and in the header component. The links in the header runs smoothly using smooth scroll with client side navigation while the links to the projects and posts pages are linked to statically generated pages in build time using Next.js's static site generation. 
+
+## Technologies
+This project is created with, 
+ - Next.js: "12.1.6"
+ - React: "18.2.0""
+ - React-DOM: "18.2.0",
+ - React-icons: "^4.4.0",
+ - Remark: "^14.0.2",
+ - Remark-html: "^15.0.1"
+ - Gray-matter: "^4.0.3"
+ - Date-fns: "^2.28.0"
+
+## Setup
+
+To run this project locally, install it using npm: 
+```
+$ cd ./blog
+$ npm install
+$ yarn dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-
-
-## Things done: 
+## Future Features: 
 Header
     For the header, try and use useState and useEffect to keep track of the movement of scroll and then 
-    show and hide the navigation header based on whether the position of scroll is at the top or when the user has scrolled upward?          
-
-Deploy and Documenting
-    Write Readme
-    Host on Netlify 
-    Write post about building this website on the md file.
-    Edit previous projects 
-    Work on nft minting site project. 
-
-Done 
-    Design a logo for use in the logo part of the header and the tab bar.
-          
-    In the header, add in page client side navigation so that when the user clicks, it will smoothly slide down to that section.
-
-    Project section, 
-    title, description, skills, social links w icons, summary
-                    
-    Add new design so that the top projects can be showcased effectively. 
-          
-    Come up w some cool design that has both image and project description. 
-          
-    Modify the Projectbox component so that it can showcase skills and tech
-    
-    Add link to the projectbox component so that it links to the Github code
-    
+    show and hide the navigation header based on whether the position of scroll is at the top or when the user has scrolled upward.         
