@@ -2,7 +2,7 @@
 title: 'Spotify Beat Recommender'
 image: ''
 skills: 'React, SpotifyAPI, CSR, CRA, Netlify'
-link: ''
+link: 'https://beat-recommender.netlify.app/'
 githublink: 'https://github.com/masaya-sasaki/beat-recommender'
 featured: 'yes'
 ---
