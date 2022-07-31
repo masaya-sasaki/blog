@@ -11,11 +11,11 @@ export default function Post({postData}){
       <Head>
         <title>{postData.title}</title>
       </Head>
-        <article>
+        <article style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
           <h2>{postData.title}</h2>
           <Date dateString={postData.date} />
           <br/>
-          <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
+          <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} style={{width: '80%'}}/>
           <p>Return to <span style={{color: '#0000FF'}}><Link href='/'>home</Link></span> </p>
         </article>
     </Layout>
