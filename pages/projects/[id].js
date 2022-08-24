@@ -10,10 +10,10 @@ export default function Project({projectData}){
         <Head>
           <title>{projectData.title}</title>
         </Head>
-          <article>
+          <article style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
             <h2>{projectData.title}</h2>
             <br/>
-            <div dangerouslySetInnerHTML={{ __html: projectData.contentHtml }} />
+            <div dangerouslySetInnerHTML={{ __html: projectData.contentHtml }} style={{width: '80%'}} />
             <p>Return to <span style={{color: '#0000FF'}}><Link href='/'>home</Link></span> </p>
           </article>
       </Layout>
