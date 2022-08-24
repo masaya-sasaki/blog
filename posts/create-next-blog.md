@@ -2,7 +2,7 @@
 title: 'Creating a blog using Next.js'
 date: '2022-06-24'
 summary: 'In this post, I talk about how you can create a blog website using Next.js and React.'
-featured: 'yes'
+featured: 'no'
 ---
 
 Creating a blog using Next.js: **Next.js** and **React** will be used to create this blog. 
