@@ -26,7 +26,7 @@ export default function Projects({featuredProjectsData}){
                     <span
                     className={styles.linkcontainer}
                     >
-                    See All Projects <AiOutlineArrowRight color="grey"/>
+                    View Projects -{'>'}
                     </span>
                 </Link>
                 </div>

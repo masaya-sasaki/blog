@@ -26,12 +26,13 @@
 
 
 .linkcontainer{
-    display: flex;
-    align-items: center;
     gap: 0.2rem; 
     cursor: pointer;
+    background: -webkit-linear-gradient(90deg, rgba(251,63,145,1) 0%, rgba(192,70,252,1) 100%);
+    color: black; 
+    padding-inline: 1rem; 
 }
 
 .linkcontainer:hover{
-    color: lightpink; 
+    filter: brightness(150%);
 }

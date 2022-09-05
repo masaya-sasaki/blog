@@ -21,7 +21,7 @@
     max-width: 500px; 
     margin: 0 auto; 
 }
-
+/* 
 .linkcontainer{
     width: 72%; 
     display: flex;
@@ -32,4 +32,17 @@
 
 .linkcontainer:hover{
     color: lightblue;
+} */
+
+.linkcontainer{
+  gap: 0.2rem; 
+  cursor: pointer;
+  background: #38B6FF;
+  color: black; 
+  padding-inline: 1rem; 
+  font-size: 1.5rem;
+}
+
+.linkcontainer:hover{
+  filter: brightness(150%);
 }

@@ -7,8 +7,8 @@ export default function Blog({featuredPostsData}){
     return (
             <section id='posts' className={styles.container}>
                 <h2 className={styles.title}>FEATURED POSTS</h2>
+                <div className={styles.landingbox}>
                 <ul 
-                className={styles.landingbox}
                 style={{display: 'flex', flexDirection: 'column', gap: '1rem', padding: '0 10px 0 10px'}} >
                 {featuredPostsData.map(({ id, date, title, summary }) => (
                 <PostBox 
@@ -19,14 +19,16 @@ export default function Blog({featuredPostsData}){
                 summary={summary}
                 />
                 ))}
+                </ul>
                 <Link href='/post/'>
                     <span
                     className={styles.linkcontainer}
                     >
-                    See All Posts <AiOutlineArrowRight color="grey"/>
+                    View Posts -{'>'}
                     </span>
                 </Link>
-                </ul>
+                </div>
+                
             </section>
     )
 }
