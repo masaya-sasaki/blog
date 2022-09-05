@@ -5,7 +5,7 @@
 
 .projectbox{ 
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
 }
 
 .projectcontent{
@@ -18,8 +18,7 @@
 
 .links{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-end;
     gap: 0.2rem; 
 }
 
@@ -34,4 +33,8 @@
 
 .changeColor:hover{
     color: lightpink; 
+}
+
+.iframebox{
+    height: 300px; 
 }
