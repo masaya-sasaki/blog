@@ -10,12 +10,11 @@ export default function ProjectBox({ id, title, image, skills, link, githublink 
               <div
               className={styles.projectcontent}
               >
-                {title}
-                <br/>
-                {image}
-                <span className={styles.skills}>{skills}</span>              
+                <div>{title}</div>
+                <div className={styles.skills}>{skills}</div>              
               </div>
-              </Link>
+              </Link> 
+              <iframe src={link} className={styles.iframebox}></iframe>
               <div
               className={styles.links}
               >
