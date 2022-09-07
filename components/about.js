@@ -17,7 +17,7 @@ export default function About(){
                    and share my knowledge as I explore the question: 
                    <br/>
                    <br/>
-                   How can people communicate and collaborate with each other “better”? What would that interface (for such subjectivity) look like? 
+                   How can people communicate and collaborate with each other “better”? What would that interface/media (for such subjectivity) look like? 
                 </p>
             </div>
         </section>
