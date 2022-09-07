@@ -14,7 +14,10 @@ export default function About(){
                 </p>
                 <p className={styles.introduction}>
                    In this blog, I write about web3 development
-                   and share my knowledge. 
+                   and share my knowledge as I explore the question: 
+                   <br/>
+                   <br/>
+                   How can people communicate and collaborate with each other “better”? What would that interface (for such subjectivity) look like? 
                 </p>
             </div>
         </section>
